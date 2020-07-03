@@ -13,7 +13,7 @@ if(mysqli_num_rows($result) > 0) {
     {
         $res = $res . '<div class="container">';
         $res = $res . $row['ip'];
-        $res = $res . " says <p>".$row['msg'];
+        $res = $res . " Says <p>".$row['msg'];
         $res = $res .'</p> <span class ="time-right">' . $row['stime'] . '</span></div>';
     }
 }

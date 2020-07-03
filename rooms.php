@@ -37,6 +37,8 @@ body {
   margin: 0 auto;
   max-width: 800px;
   padding: 0 20px;
+  background-color:  rgb(180, 120, 80);
+  
 }
 
 .container {
@@ -86,6 +88,7 @@ body {
     overflow-y:scroll;
     height:350px;
 }
+
 </style>
 </head>
 <body>
